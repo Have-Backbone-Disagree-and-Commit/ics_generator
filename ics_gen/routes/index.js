@@ -85,6 +85,7 @@ router.post('/ics_gen', async function(req, res, next) {
     }
   }
   else if(startDate!='' || endDate!='' || endDate!='상시' || endDate!="상시 채용" || startDate!=null || endDate!=null ){
+    console.log("seek logic!)
     timestamp = startDate;
     await generateIcs(title, startDate, endDate, timestamp, receivedData)
     .then(function(filename){
