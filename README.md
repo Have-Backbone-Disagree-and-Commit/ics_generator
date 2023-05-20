@@ -3,11 +3,13 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=random&text=ICS%20Generator)
 
 </div>
+<br>
 
 <div>
   
   # 📌 Introduction
   - 취업 공고에 대한 데이터를 받아 서류 접수 시작일, 서류 접수 마감일을 기반으로 <strong>캘린더 파일(.ics)을 생성</strong>하는 마이크로 서버
+  <br>
   
   # 💻 Main Functions
   - ./ics_gen/routes/index.js
